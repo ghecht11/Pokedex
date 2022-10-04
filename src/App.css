@@ -28,6 +28,23 @@
      grid-template-rows: 1fr;
    }
 
+   .nav-logo{
+    height: 5vh;
+    width: 11vw;
+    margin-top: 2vh;
+    margin-left: 4vw
+   }
+
+   .nav-filter{
+    height: 4vh;
+    width: 7vw;
+    margin-top: 2vh;
+    margin-right: 4vw
+   }
+
+   .hashtag{
+    font-size: 3vh;
+   }
    .nav-second-row {
      display: grid;
      justify-content: center;
