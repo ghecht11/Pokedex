@@ -1,6 +1,9 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
  @media (min-width:390px) {
-   * {
-     font-size: 1.2rem;
+   body{
+    font-family: 'Poppins', sans-serif;
+    
    }
 
 
@@ -28,11 +31,24 @@
      grid-template-rows: 1fr;
    }
 
+   .nav-columns{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    font-size: 30px;
+    align-items: center;
+    font-weight: bold;
+   }
+
+   .centrado{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+   }
+
    .nav-logo{
     height: 5vh;
     width: 11vw;
-    margin-top: 2vh;
-    margin-left: 4vw
+  
    }
 
    .nav-filter{
@@ -42,8 +58,14 @@
     margin-right: 4vw
    }
 
+   .nav-columns2{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+   }
+
    .hashtag{
-    font-size: 3vh;
+    font-size: 20px;
    }
    .nav-second-row {
      display: grid;

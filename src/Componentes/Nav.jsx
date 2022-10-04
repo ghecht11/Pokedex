@@ -4,14 +4,21 @@ const Navbar =()=> {
         <div className="NavBar"> {/*Div contenedor */}
 
             <div className="nav-first-row"> {/*Div con logo y texto*/}
-                <div className="nav-columns">
-                    <img src="./Imagenes/Pokeball.png" alt="" className="nav-logo"/>
-                    <p>Pokedéx</p>
+                <div className="nav-columns ">
+                    <div className="centrado">
+                        <img src="./Imagenes/Pokeball.png" alt="" className="nav-logo"/>
+                    </div>
+
+                    <div>Pokedéx</div>
+                    
+                    
                 </div>
                 
-                <div className="hashtag">
-                    #
-                    <img src="./Imagenes/Arrow.svg" alt=""  className="nav-filter"/>
+                <div className="nav-columns2">
+                    <div className="hashtag centrado">#</div>
+                    <div><img src="./Imagenes/Arrow.svg" alt=""  className="nav-filter"/></div>
+                    
+                    
                 </div>
                 
             </div>
