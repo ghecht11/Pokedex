@@ -25,9 +25,6 @@ const Navbar =()=> {
 
             <div className="nav-second-row"> {/*Div con filter */}
             <input type="search" class="input" placeholder="Buscar" className="finder"/>
-            
-            
-
 
             </div>
         </div>
