@@ -7,9 +7,9 @@ const PokemonList=()=>{
                     #001
                 </div>
                 <div>
-                    <img src="./Imagenes/bulbasaur.png" alt="" />
+                    <img src="./Imagenes/bulbasaur.png" alt=""/>
                 </div>
-                <div>
+                <div className="pokemon-name">
                     Bulbasaur
                 </div>
                 

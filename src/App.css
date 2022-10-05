@@ -106,12 +106,22 @@
       border: 2px solid ;
       border-radius: 15px;
       border-color: #74cb48;
+      align-items: center;
+      justify-items: center;
      
      }
      
-     Pokemon-Container > img {
-      height: 20px;
-      width: 15px;
+      .Pokemon-Container>div>img{
+      height: 100px;
+      width: 100px;
+     }
+
+     .pokemon-name{
+      background: #74cb48;
+      height: 100%;
+      width: 100%;
+      background-size: 100% 100%;
+      color: white;
      }
 
      .grass{
