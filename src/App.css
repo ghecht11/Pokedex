@@ -106,6 +106,16 @@
       border: 2px solid ;
       border-radius: 15px;
       border-color: #74cb48;
+     
+     }
+     
+     Pokemon-Container > img {
+      height: 20px;
+      width: 15px;
+     }
+
+     .grass{
+      border-color: #74cb48;
      }
 
  }
