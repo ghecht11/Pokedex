@@ -2,8 +2,8 @@ import React from "react";
 const PokemonList=()=>{
     return(
         <div className="pokeList">
-            <div className="Pokemon-Container">
-                <div> 
+            <div className="Pokemon-Container grass">
+                <div className="pokemon-number"> 
                     #001
                 </div>
                 <div>
@@ -12,8 +12,6 @@ const PokemonList=()=>{
                 <div className="pokemon-name">
                     Bulbasaur
                 </div>
-                
-
             </div>
         </div>
     )

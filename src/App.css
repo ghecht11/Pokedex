@@ -117,11 +117,22 @@
      }
 
      .pokemon-name{
-      background: #74cb48;
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      background-color: #74cb48;
       height: 100%;
       width: 100%;
-      background-size: 100% 100%;
       color: white;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+     }
+
+     .pokemon-number{
+      display: flex;
+      justify-content: flex-end;
+      color: #74cb48;
+
      }
 
      .grass{
