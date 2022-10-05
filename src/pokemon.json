@@ -1,0 +1,21 @@
+{
+  "pokemon": [{
+  "name": "Aron",
+  "id": "#304",
+  "type": "Steel",
+  "weight": "60,0kg",
+  "height": "0,4m",
+  "moves": "Sturdy Rock-Head",
+  "description" : "It eats iton ore - and sometimes railroad tracks - to build up the steek armor thay protects its body",
+  "HP": "050",
+  "ATK": "070",
+  "DEF": "100",
+  "SATK": "040",
+  "SDEF": "040",
+  "SPD": "030" }],
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {} 
+
+}
+
