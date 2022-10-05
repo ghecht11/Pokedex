@@ -131,12 +131,13 @@
 
      .pokemon-number{
       margin-left: 50%;
-      color: #74cb48;
+      
       font-size: 15px;
      }
 
      .grass{
-      border-color: #74cb48
+      border-color: #74cb48;
+      color: #74cb48;
      }
 
      .grass>div>span{
@@ -149,6 +150,139 @@
       display: grid;
       align-items: center;
      }
+
+     .water{
+      border-color: #6493eb;
+      color: #6493eb;
+     }
+
+     .water>div>span{
+      background-color: #6493eb;
+      height: 100%;
+      width: 100%;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      text-align: center;
+      display: grid;
+      align-items: center;
+     }
+
+     .electric{
+      border-color: #f9cf30;
+      color: #f9cf30;
+     }
+
+     .electric>div>span{
+      background-color: #f9cf30;
+      height: 100%;
+      width: 100%;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      text-align: center;
+      display: grid;
+      align-items: center;
+     }
+
+     .psychic{
+      border-color: #fb5584;
+      color: #fb5584;
+     }
+
+     .psychic>div>span{
+      background-color: #fb5584;
+      height: 100%;
+      width: 100%;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      text-align: center;
+      display: grid;
+      align-items: center;
+     }
+
+     .ghost{
+      border-color: #705584;
+      color: #705584;
+     }
+
+     .ghost>div>span{
+      background-color: #705584;
+      height: 100%;
+      width: 100%;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      text-align: center;
+      display: grid;
+      align-items: center;
+     }
+
+     
+     .normal{
+      border-color: #aaa67f;
+      color: #aaa67f;
+     }
+
+     .normal>div>span{
+      background-color: #aaa67f;
+      height: 100%;
+      width: 100%;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      text-align: center;
+      display: grid;
+      align-items: center;
+     }
+
+     .fire{
+      border-color: #f57d31;
+      color: #f57d31;
+     }
+
+     .fire>div>span{
+      background-color: #f57d31;
+      height: 100%;
+      width: 100%;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      text-align: center;
+      display: grid;
+      align-items: center;
+     }
+
+     
+     .bug{
+      border-color: #a7b723;
+      color: #a7b723;
+     }
+
+     .bug>div>span{
+      background-color: #a7b723;
+      height: 100%;
+      width: 100%;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      text-align: center;
+      display: grid;
+      align-items: center;
+     }
+
+     .steel{
+      border-color: #b7b9d0;
+      color: #b7b9d0;
+     }
+
+     .steel>div>span{
+      background-color: #b7b9d0;
+      height: 100%;
+      width: 100%;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      text-align: center;
+      display: grid;
+      align-items: center;
+     }
+
+
+
 
  }
 
