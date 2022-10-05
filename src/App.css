@@ -91,12 +91,21 @@
       font-size: 20px;
     }
      .pokeList{
+      display: grid;
       height: 50vh;
       width: 95vw;
-      display:grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
-      justify-items: center;
+      margin-left: 2.5vw;
+     }
+
+     .Pokemon-Container{
+      display: grid ;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 4fr 2fr;
+      border: 2px solid ;
+      border-radius: 15px;
+      border-color: #74cb48;
      }
 
  }
