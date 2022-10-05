@@ -6,11 +6,11 @@ const PokemonList=()=>{
                 <div className="pokemon-number"> 
                     #001
                 </div>
-                <div>
+                <div className="pokemon-image">
                     <img src="./Imagenes/bulbasaur.png" alt=""/>
                 </div>
                 <div className="pokemon-name">
-                    Bulbasaur
+                    <span>Bulbasaur</span>
                 </div>
             </div>
         </div>
