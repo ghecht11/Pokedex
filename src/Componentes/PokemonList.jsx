@@ -1,7 +1,7 @@
 import React from "react";
 const PokemonList=()=>{
     return(
-        <div className="PokeList">
+        <div className="pokeList">
 
         </div>
     )

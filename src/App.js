@@ -6,11 +6,12 @@ import PokemonList from './Componentes/PokemonList';
 
 function App() {
   return (
-    <body>
-      <Navbar/>
-      <PokemonList/>
-
-    </body>
+    <>
+ 
+        <Navbar/>
+        <PokemonList/>
+     
+    </>
   );
 }
 
