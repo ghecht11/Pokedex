@@ -3,7 +3,7 @@
   {
   "name": "Aron",
   "id": "#304",
-  "img":"./public/Imagenes/aron.png",
+  "image":"./public/Imagenes/aron.png",
   "type": "steel",
   "weight": "60,0kg",
   "height": "0,4m",
@@ -20,7 +20,7 @@
 {
   "name": "Bulbasaur",
   "id": "#001",
-  "img":"./public/Imagenes/bulbasaur.png",
+  "image":"./public/Imagenes/bulbasaur.png",
   "type": "grass",
   "weight": "6,9kg",
   "height": "0,7m",
@@ -37,7 +37,7 @@
 {
   "name": "Butterfree",
   "id": "#012",
-  "img":"./public/Imagenes/butterfree.png",
+  "image":"./public/Imagenes/butterfree.png",
   "type": "bug",
   "weight": "32,0kg",
   "height": "1,1m",
@@ -54,7 +54,7 @@
   {
   "name": "Charmander",
   "id": "#004",
-  "img":"./public/Imagenes/charmander.png",
+  "image":"./public/Imagenes/charmander.png",
   "type": "fire",
   "weight": "8,5kg",
   "height": "0,6m",
@@ -72,7 +72,7 @@
 
   "name": "Ditto",
   "id": "#132",
-  "img":"./public/Imagenes/ditto.png",
+  "image":"./public/Imagenes/ditto.png",
   "type": "normal",
   "weight": "4,0kg",
   "height": "0,3m",
@@ -90,7 +90,7 @@
 {
   "name": "Gastly",
   "id": "#092",
-  "img":"./public/Imagenes/gastly.png",
+  "image":"./public/Imagenes/gastly.png",
   "type": "ghost",
   "weight": "0,1kg",
   "height": "1,3m",
@@ -108,7 +108,7 @@
 
   "name": "Mew",
   "id": "#152",
-  "img":"./public/Imagenes/mew.png",
+  "image":"./public/Imagenes/mew.png",
   "type": "psychic",
   "weight": "4,0kg",
   "height": "0,4m",
@@ -125,7 +125,7 @@
 {
   "name": "Pikachu",
   "id": "#025",
-  "img":"./public/Imagenes/pikachu.png",
+  "image":"./public/Imagenes/pikachu.png",
   "type": "electric",
   "weight": "6,0kg",
   "height": "0,4m",
@@ -142,7 +142,7 @@
 {
   "name": "squirtle",
   "id": "#007",
-  "img":"./public/Imagenes/squirtle.png",
+  "image":"./public/Imagenes/squirtle.png",
   "type": "water",
   "weight": "9,0kg",
   "height": "0,5m",

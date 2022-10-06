@@ -9,18 +9,22 @@ const PokemonList=()=>{
         <>
             <div className="pokeList">
                 {Pokemons.map((pokemon,index)=>{ 
+                    return (
                     
                     <div className={`Pokemon-Container ${pokemon.type}`}>
                     <div className="pokemon-number"> 
                         {pokemon.id}
                     </div>
                     <div className="pokemon-image">
-                        <img src={`${pokemon.img}`} alt=""/>
+                        <img src={pokemon.image} alt=""/>
+                        
+
                     </div>
                     <div className="pokemon-name">
                         <span>{pokemon.name}</span>
                     </div>
                 </div>
+                    )
                 })}
                 
 asd
