@@ -1,17 +1,30 @@
 
 import './App.css';
-import Navbar from './Componentes/Nav.jsx';
-import PokemonList from './Componentes/PokemonList';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './Componentes/home';
+import Navbar from './Componentes/Nav';
+
+
+
+
 
 
 function App() {
   return (
-    <>  
-
-      <Navbar/> 
-      <PokemonList/>
      
-    </>
+    <BrowserRouter>
+     <Routes>
+     <Route path="/" element={<Home/>}/>
+
+     <Route path="/" element={<Modal/>}/>
+
+
+      
+    
+      </Routes>
+    </BrowserRouter>
+
   );
 }
 
