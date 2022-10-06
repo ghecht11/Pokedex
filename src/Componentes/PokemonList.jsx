@@ -8,12 +8,14 @@ const PokemonList=()=>{
     return(
         <>
             <div className="pokeList">
-                {Pokemons.map((pokemon,index)=>{ 
+                {Pokemons.pokemones.map((pokemon,index)=>{ 
                     return (
+                    <div key={pokemon.id}>
                     
-                    <div className={`Pokemon-Container ${pokemon.type}`}>
+                    <div className={`Pokemon-Container ${pokemon.type}`} >
                     <div className="pokemon-number"> 
-                        {pokemon.id}
+                        #{pokemon.id}
+                        
                     </div>
                     <div className="pokemon-image">
                         <img src={pokemon.image} alt=""/>
@@ -24,10 +26,10 @@ const PokemonList=()=>{
                         <span>{pokemon.name}</span>
                     </div>
                 </div>
+                </div>
                     )
                 })}
                 
-asd
                 
             </div>
         </>

@@ -105,8 +105,8 @@
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 3fr 1fr;
-      height: 90%;
-      width: 80%;
+      height: 100%;
+      width: 100%;
       border: 2px solid;
       border-radius: 15px;
       align-items: center;
@@ -115,8 +115,11 @@
      }
      
       .Pokemon-Container>div>img{  /*Tamaño de la imagen*/
-      height: 80px;
-      width: 90px;
+      height: 63px;
+      width: 100px;
+      padding: 0px;
+      margin: 0px;
+      
      }
 
      .pokemon-name{
@@ -127,13 +130,19 @@
       width: 100%;
       font-size: 14px;
       color: white; /*Todos los textos son blancos*/
-      
+     }
+
+     .pokemon-image{
+      height: 100%;
+      width: 100%;
      }
 
      .pokemon-number{
-      margin-left: 50%;
-      
-      font-size: 15px;
+      margin-left: 65%;
+      font-size: 10px;
+     }
+     .pokemon-name>span{
+      font-size: 13px;
      }
 
      .grass{
@@ -150,6 +159,7 @@
       text-align: center;
       display: grid;
       align-items: center;
+      
      }
 
      .water{
