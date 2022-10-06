@@ -1,0 +1,170 @@
+{
+  "pokemones": [
+  {
+  "name": "Aron",
+  "id": "#304",
+  "img":"./public/Imagenes/aron.png",
+  "type": "steel",
+  "weight": "60,0kg",
+  "height": "0,4m",
+  "moves": "Sturdy Rock-Head",
+  "description" : "It eats iton ore - and sometimes railroad tracks - to build up the steek armor thay protects its body",
+  "HP": "050",
+  "ATK": "070",
+  "DEF": "100",
+  "SATK": "040",
+  "SDEF": "040",
+  "SPD": "030" 
+},
+
+{
+  "name": "Bulbasaur",
+  "id": "#001",
+  "img":"./public/Imagenes/bulbasaur.png",
+  "type": "grass",
+  "weight": "6,9kg",
+  "height": "0,7m",
+  "moves": "Chriorophyll Overgrow",
+  "description" : "There is a plant seed on its bacl right from the day this Pokémon is born. The seed sloqly grows larger",
+  "HP": "045",
+  "ATK": "049",
+  "DEF": "049",
+  "SATK": "065",
+  "SDEF": "065",
+  "SPD": "045" 
+},
+
+{
+  "name": "Butterfree",
+  "id": "#012",
+  "img":"./public/Imagenes/butterfree.png",
+  "type": "bug",
+  "weight": "32,0kg",
+  "height": "1,1m",
+  "moves": "Compound-Eyes Tinted-Lens",
+  "description" : "In battle it flaps its wings at great speed to relase highly toxic dust into the air",
+  "HP": "060",
+  "ATK": "045",
+  "DEF": "050",
+  "SATK": "090",
+  "SDEF": "080",
+  "SPD": "070"
+},
+
+  {
+  "name": "Charmander",
+  "id": "#004",
+  "img":"./public/Imagenes/charmander.png",
+  "type": "fire",
+  "weight": "8,5kg",
+  "height": "0,6m",
+  "moves": "Mega-Punch Fire-Punch",
+  "description" : "It has a preference for hot things. When it rains, steam is said to spout from the tip os its tail",
+  "HP": "039",
+  "ATK": "052",
+  "DEF": "043",
+  "SATK": "060",
+  "SDEF": "050",
+  "SPD": "065" 
+},
+
+{
+
+  "name": "Ditto",
+  "id": "#132",
+  "img":"./public/Imagenes/ditto.png",
+  "type": "normal",
+  "weight": "4,0kg",
+  "height": "0,3m",
+  "moves": "Limber Imposter",
+  "description" : "It can reconstitue its entire cellular structure to change into what it sees, but it returns when it relaxes",
+  "HP": "048",
+  "ATK": "048",
+  "DEF": "048",
+  "SATK": "048",
+  "SDEF": "048",
+  "SPD": "048"
+
+},
+
+{
+  "name": "Gastly",
+  "id": "#092",
+  "img":"./public/Imagenes/gastly.png",
+  "type": "ghost",
+  "weight": "0,1kg",
+  "height": "1,3m",
+  "moves": "Levitate",
+  "description" : "Born from grases, anyone would faint if engulled by its gaseous body, which contains poison.",
+  "HP": "030",
+  "ATK": "035",
+  "DEF": "030",
+  "SATK": "100",
+  "SDEF": "035",
+  "SPD": "080"
+},
+
+{
+
+  "name": "Mew",
+  "id": "#152",
+  "img":"./public/Imagenes/mew.png",
+  "type": "psychic",
+  "weight": "4,0kg",
+  "height": "0,4m",
+  "moves": "Synchronize",
+  "description" : "When viewed through a microscope, this pokemon's short, fine, delicate hair can be seen.",
+  "HP": "100",
+  "ATK": "100",
+  "DEF": "100",
+  "SATK": "100",
+  "SDEF": "100",
+  "SPD": "100"
+},
+
+{
+  "name": "Pikachu",
+  "id": "#025",
+  "img":"./public/Imagenes/pikachu.png",
+  "type": "electric",
+  "weight": "6,0kg",
+  "height": "0,4m",
+  "moves": "Mega-Punch Pay-Day",
+  "description" : "Pikachu that can regenerate powerful electricity have ckeek sacs that are extra soft and super stretchy",
+  "HP": "035",
+  "ATK": "055",
+  "DEF": "040",
+  "SATK": "050",
+  "SDEF": "050",
+  "SPD": "090"
+},
+
+{
+  "name": "squirtle",
+  "id": "#007",
+  "img":"./public/Imagenes/squirtle.png",
+  "type": "water",
+  "weight": "9,0kg",
+  "height": "0,5m",
+  "moves": "Torrent Rain-Dish",
+  "description" : "When it retracts its long neck into its shell, it squirts out water with vigorous force.",
+  "HP": "044",
+  "ATK": "048",
+  "DEF": "065",
+  "SATK": "050",
+  "SDEF": "064",
+  "SPD": "043" 
+}
+]
+,
+
+
+
+
+
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {} 
+
+}
+
