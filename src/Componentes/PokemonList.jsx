@@ -23,7 +23,7 @@ const PokemonList=()=>{
                 </div>
                 })}
                 
-
+asd
                 
             </div>
         </>
