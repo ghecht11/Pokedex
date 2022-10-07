@@ -31,13 +31,17 @@ const Modal =()=>{
                 </div>
             </div>
             
-            <div> type</div>
-            <div> about</div>
-            <div> peso y esas cosas</div>
-            <div> descripcion</div>
-            <div>base stats</div>
-            <div>stats</div>
-            
+            <div className="modal-bottom">
+                <div className="modal-type">
+                    <span>Fire</span>
+                </div>
+                
+                <div> about</div>
+                <div> peso y esas cosas</div>
+                <div> descripcion</div>
+                <div>base stats</div>
+                <div>stats</div>
+            </div>
         </div>
     )
 }
