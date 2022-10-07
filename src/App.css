@@ -11,18 +11,12 @@
      color: white;
    }
 
-   nav {
-     display: grid;
-     grid-template-columns: 1fr 1fr;
-     margin-top: 20px;
-     align-items: center;
-     justify-content: center;
-   }
-
    .NavBar {
      display: grid;
      grid-template-columns: 1fr;
      grid-template-rows: 1fr 1fr;
+     align-items: center;
+    
    }
 
    .nav-first-row {
@@ -52,16 +46,15 @@
    }
 
    .nav-filter{
-    height: 3vh;
+    height: 20px;
     width: 6vw;
-    margin-top: 2vh;
-    margin-right: 4vw
    }
 
    .nav-columns2{
     display: grid;
     grid-template-columns: 1fr 3fr;
     align-items: center;
+    
    }
 
    .hashtag{
@@ -70,7 +63,6 @@
    .nav-second-row {
      display: grid;
      justify-content: center;
-     margin-top: 10px;
    }
 
    .finder{
@@ -115,8 +107,8 @@
      }
      
       .Pokemon-Container>div>img{  /*Tamaño de la imagen*/
-      height: 63px;
-      width: 100px;
+      height: 60px;
+      width: 90px;
       padding: 0px;
       margin: 0px;
       
@@ -138,7 +130,7 @@
      }
 
      .pokemon-number{
-      margin-left: 65%;
+      margin-left: 60%;
       font-size: 10px;
      }
      .pokemon-name>span{
@@ -281,6 +273,12 @@
       color: #b7b9d0;
      }
 
+     .steelbg{
+      background-color: #b7b9d0;
+      border: 5px solid #b7b9d0;
+      
+     }
+
      .steel>div>span{
       background-color: #b7b9d0;
       height: 100%;
@@ -296,19 +294,15 @@
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 2fr;
-      height: 100vh;
-      width: 100vw;
-      border: 3px solid ;
-      border-color:#f57d31 ;
+      height: 100%;
+      width: AUTO;
       border-radius: 15px;
-
      }
 
      .modal-name{
       background-image: url(/public/Imagenes/Pokeball.png);
       background-repeat: no-repeat;
       background-position:95% 10%;
-      background-color: #f57d31;
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 2fr;
@@ -317,67 +311,130 @@
       color: white;
       font-size: 25px;
       font-weight: bold;
-     }
-
-     .modal-name>div>span{
-      font-size: 15px;
+      height: 100%;
+      width: 100%;
      }
 
      .modal-name>div>img{
       filter: invert(100%) sepia(0%) saturate(7499%) hue-rotate(125deg) brightness(100%) contrast(100%);;
      }
 
-     .modal-img{
-      display: grid;
-      grid-template-columns: 1fr 4fr 1fr;
-      align-items: center;
-      justify-items: center;
-    }
-
     .white{
       filter: invert(100%) sepia(0%) saturate(7499%) hue-rotate(125deg) brightness(100%) contrast(100%);;
     }
 
-    .arrow-right{
+    .arrow-right{ /*  ROTACION DE FLECHA  */
       transform: rotate(180deg);
     }
-    .modal-1row{
+
+    .modal-1row{ /*PRIMERA FILA DE LA PRIMERA MITAD*/
       display: grid;
-      grid-template-columns: 1fr 4fr 1fr;
+      grid-template-columns: 1fr 3fr 1fr;
+      align-items: center;
+      justify-items: center;
     }
 
-    .modal-2row{
+    .modal-2row{   /*SEGUNDA FILA DE LA PRIMERA MITAD*/
+      height: 100%;
+      width: 100%;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
+      justify-items: center;
+      align-items: center;
     }
 
-    .modal-bottom{
+    .modal-poke-img{
+      height: 200px;
+      width: 200px;
+    }
+
+    .div-poke-img{
+      display: grid ;
+      justify-items: center;
+      position: relative;
+      top: 20%;
+      
+    }
+
+    .modal-bottom{  /*  CONETENEDOR DE TODA LA SEGUNDA MITAD DE LA CARTA*/
+      background-color: white;
+      color: black;
+      border-radius: 20px;
       height: 100%;
       width: 100%;
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: 3fr 1fr 2fr 2fr 1fr 6fr ;
-      border-radius: 15px;
+      grid-template-rows: 2fr 1fr 2fr 2fr 1fr 6fr ;
       justify-items: center;
       align-items: center;
-  
+    }
 
+    .arrow{
+      position: relative;
+      bottom:-35% ;
     }
 
     .modal-type {
+      position: relative;
       height: 30%;
       width: 14%;
-      background-color: #f57d31;
       color: white;
       border-radius: 15px;
       display: grid;
-      align-items: center;
+      bottom: -30%;
       justify-items: center;
       font-weight: bold;
 
       
     }
+    .color{
+      background-color: #f57d31;
+    }
 
- }
+    .about{
+      font-weight: bolder;
+    }
+
+    .modal-info{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      height: 100%;
+      width: 90%;
+      align-items: center;
+      justify-items: center;
+    }
+    .modal-description{
+      height: 100%;
+      width: 90%;
+    }
+
+    .twocols{
+      display: grid;
+      align-items: center;
+      justify-items: center;
+      grid-template-columns: 1fr 2fr;
+      height: 100%;
+      width: 100%;
+    }
+    
+    .tworows{
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      align-items: center;
+      justify-items: center;
+      height: 100%;
+      width: 100%;
+      text-align: center;
+    }
+
+    .bolder{
+      font-weight: bolder;
+    }
+
+    .line{
+      border-right: 2px solid gray;
+
+    }
+ }  
 
  
