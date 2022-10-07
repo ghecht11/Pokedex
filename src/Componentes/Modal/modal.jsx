@@ -56,7 +56,7 @@ const Modal =()=>{
                 <div className="modal-info"> 
                     <div className="tworows line">
                         <div className="twocols">
-                            <div><img src="/Imagenes/Weight.svg"/></div>
+                            <div><img src="/Imagenes/Weight.svg" alt=""/></div>
                             <div className="bolder">{pokemon.weight}</div>    
                         </div>
                         <div>Weight</div>
@@ -64,7 +64,7 @@ const Modal =()=>{
 
                     <div className="tworows line">
                         <div className="twocols">
-                            <div><img src="/Imagenes/height.svg"/></div>
+                            <div><img src="/Imagenes/height.svg" alt=""/></div>
                             <div className="bolder">{pokemon.height}</div>
                         </div>
                         <div>Height</div>

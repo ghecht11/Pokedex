@@ -5,7 +5,7 @@
   "name": "Aron",
   "id": "304",
   "image":"./Imagenes/aron.png",
-  "type": "steel",
+  "type": "Steel",
   "weight": "60,0kg",
   "height": "0,4m",
   "moves": "Sturdy Rock-Head",
@@ -16,7 +16,8 @@
   "SATK": 40,
   "SDEF": 40,
   "SPD":30,
-  "background":"steelbg"
+  "background":"steelbg",
+  "type2":"Rock"
    
 },
 
@@ -24,7 +25,7 @@
   "name": "Bulbasaur",
   "id": "001",
   "image":"./Imagenes/bulbasaur.png",
-  "type": "grass",
+  "type": "Grass",
   "weight": "6,9kg",
   "height": "0,7m",
   "moves": "Chriorophyll Overgrow",
@@ -34,14 +35,16 @@
   "DEF": 49,
   "SATK": 65,
   "SDEF": 65,
-  "SPD": 45 
+  "SPD": 45 ,
+  "background":"grassbg",
+  "type2":"Poison"
 },
 
 {
   "name": "Butterfree",
   "id": "012",
   "image":"./Imagenes/butterfree.png",
-  "type": "bug",
+  "type": "Bug",
   "weight": "32,0kg",
   "height": "1,1m",
   "moves": "Compound-Eyes Tinted-Lens",
@@ -51,14 +54,16 @@
   "DEF": 50,
   "SATK": 90,
   "SDEF": 80,
-  "SPD": 70
+  "SPD": 70,
+  "background":"bugbg",
+  "type2":"Flying"
 },
 
   {
   "name": "Charmander",
   "id": "004",
   "image":"./Imagenes/charmander.png",
-  "type": "fire",
+  "type": "Fire",
   "weight": "8,5kg",
   "height": "0,6m",
   "moves": "Mega-Punch Fire-Punch",
@@ -68,7 +73,9 @@
   "DEF": 43,
   "SATK": 60,
   "SDEF": 50,
-  "SPD": 65 
+  "SPD": 65,
+  "background":"firebg",
+  "type2":""
 },
 
 {
@@ -76,7 +83,7 @@
   "name": "Ditto",
   "id": "132",
   "image":"./Imagenes/ditto.png",
-  "type": "normal",
+  "type": "Normal",
   "weight": "4,0kg",
   "height": "0,3m",
   "moves": "Limber Imposter",
@@ -86,15 +93,16 @@
   "DEF": 48,
   "SATK": 48,
   "SDEF": 48,
-  "SPD": 48
-
+  "SPD": 48,
+  "background":"normalbg",
+  "type2":"" 
 },
 
 {
   "name": "Gastly",
   "id": "092",
   "image":"./Imagenes/gastly.png",
-  "type": "ghost",
+  "type": "Ghost",
   "weight": "0,1kg",
   "height": "1,3m",
   "moves": "Levitate",
@@ -104,7 +112,9 @@
   "DEF": 30,
   "SATK":100,
   "SDEF": 35,
-  "SPD": 80
+  "SPD": 80,
+  "background":"ghostbg",
+  "type2":"Type" 
 },
 
 {
@@ -112,7 +122,7 @@
   "name": "Mew",
   "id": "152",
   "image":"./Imagenes/mew.png",
-  "type": "psychic",
+  "type": "Psychic",
   "weight": "4,0kg",
   "height": "0,4m",
   "moves": "Synchronize",
@@ -122,14 +132,16 @@
   "DEF": 100,
   "SATK": 100,
   "SDEF": 100,
-  "SPD": 100
+  "SPD": 100,
+  "background":"psychicbg",
+  "type2":"" 
 },
 
 {
   "name": "Pikachu",
   "id": "025",
   "image":"./Imagenes/pikachu.png",
-  "type": "electric",
+  "type": "Electric",
   "weight": "6,0kg",
   "height": "0,4m",
   "moves": "Mega-Punch Pay-Day",
@@ -139,14 +151,16 @@
   "DEF": 40,
   "SATK": 50,
   "SDEF": 50,
-  "SPD": 90
+  "SPD": 90,
+  "background":"electricbg",
+  "type2":""
 },
 
 {
   "name": "squirtle",
   "id": "007",
   "image":"./Imagenes/squirtle.png",
-  "type": "water",
+  "type": "Water",
   "weight": "9,0kg",
   "height": "0,5m",
   "moves": "Torrent Rain-Dish",
@@ -156,7 +170,9 @@
   "DEF": 65,
   "SATK": 50,
   "SDEF": 64,
-  "SPD": 43 
+  "SPD": 43,
+  "background":"waterbg",
+  "type2":""
 }
 ]
 

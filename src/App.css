@@ -42,7 +42,6 @@
    .nav-logo{
     height: 5vh;
     width: 11vw;
-  
    }
 
    .nav-filter{
@@ -54,7 +53,6 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
     align-items: center;
-    
    }
 
    .hashtag{
@@ -82,7 +80,7 @@
       font-size: 20px;
     }
 
-     .pokeList{  /*Grilla con pokemones*/
+    .pokeList{  /*Grilla con pokemones*/
       display: grid;
       height: 50vh;
       width: 95vw;
@@ -91,9 +89,9 @@
       margin-left: 2.5vw;
       justify-items: center;
       align-items: center;
-     }
+    }
 
-     .Pokemon-Container{  /*contenedor del pokemon*/
+    .Pokemon-Container{  /*contenedor del pokemon*/
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 3fr 1fr;
@@ -103,18 +101,16 @@
       border-radius: 15px;
       align-items: center;
       justify-items: center;
-      
-     }
+    }
      
-      .Pokemon-Container>div>img{  /*Tamaño de la imagen*/
+    .Pokemon-Container>div>img{  /*Tamaño de la imagen*/
       height: 60px;
       width: 90px;
       padding: 0px;
       margin: 0px;
-      
-     }
+    }
 
-     .pokemon-name{
+    .pokemon-name{
       display: grid;
       justify-items: center;
       align-items: center;
@@ -122,27 +118,31 @@
       width: 100%;
       font-size: 14px;
       color: white; /*Todos los textos son blancos*/
-     }
+    }
 
-     .pokemon-image{
+    .pokemon-image{
       height: 100%;
       width: 100%;
-     }
+    }
 
-     .pokemon-number{
+    .pokemon-number{
       margin-left: 60%;
       font-size: 10px;
-     }
-     .pokemon-name>span{
-      font-size: 13px;
-     }
+    }
 
-     .grass{
+    
+
+    .grass{
       border-color: #74cb48;
       color: #74cb48;
-     }
+    }
 
-     .grass>div>span{
+    .grassbg {
+      background-color: #74cb48;
+      border: 5px solid #74cb48;
+    }
+
+    .grass>div>span {
       background-color: #74cb48;
       height: 100%;
       width: 100%;
@@ -151,15 +151,19 @@
       text-align: center;
       display: grid;
       align-items: center;
-      
-     }
+    }
 
-     .water{
+    .water{
       border-color: #6493eb;
       color: #6493eb;
-     }
+    }
 
-     .water>div>span{
+    .waterbg {
+      background-color: #6493eb;
+      border: 5px solid #6493eb;
+    }
+
+    .water>div>span{
       background-color: #6493eb;
       height: 100%;
       width: 100%;
@@ -168,61 +172,80 @@
       text-align: center;
       display: grid;
       align-items: center;
-     }
+    }
 
-     .electric{
-      border-color: #f9cf30;
-      color: #f9cf30;
-     }
+    .electric{
+    border-color: #f9cf30;
+    color: #f9cf30;
+    }
 
-     .electric>div>span{
-      background-color: #f9cf30;
-      height: 100%;
-      width: 100%;
-      border-bottom-left-radius: 10px;
-      border-bottom-right-radius: 10px;
-      text-align: center;
-      display: grid;
-      align-items: center;
-     }
+   .electricbg {
+    background-color: #f9cf30;
+    border: 5px solid #f9cf30;
+   }
 
-     .psychic{
-      border-color: #fb5584;
-      color: #fb5584;
-     }
+    .electric>div>span{
+    background-color: #f9cf30;
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    }
 
-     .psychic>div>span{
+    .psychic{
+    border-color: #fb5584;
+    color: #fb5584;
+    }
+
+    .psychicbg {
       background-color: #fb5584;
-      height: 100%;
-      width: 100%;
-      border-bottom-left-radius: 10px;
-      border-bottom-right-radius: 10px;
-      text-align: center;
-      display: grid;
-      align-items: center;
-     }
+      border: 5px solid #fb5584;
+    }
 
-     .ghost{
-      border-color: #705584;
-      color: #705584;
-     }
+    .psychic>div>span{
+    background-color: #fb5584;
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    }
 
-     .ghost>div>span{
+    .ghost{
+    border-color: #705584;
+    color: #705584;
+    }
+
+    .ghostbg {
       background-color: #705584;
-      height: 100%;
-      width: 100%;
-      border-bottom-left-radius: 10px;
-      border-bottom-right-radius: 10px;
-      text-align: center;
-      display: grid;
-      align-items: center;
-     }
+      border: 5px solid #705584;
+    }
 
-     
-     .normal{
+    .ghost>div>span{
+    background-color: #705584;
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    }
+
+    .normal{
       border-color: #aaa67f;
       color: #aaa67f;
-     }
+    }
+
+      .normalbg {
+        background-color: #aaa67f;
+        border: 5px solid #aaa67f;
+      }
 
      .normal>div>span{
       background-color: #aaa67f;
@@ -240,6 +263,11 @@
       color: #f57d31;
      }
 
+    .firebg {
+      background-color: #f57d31;
+      border: 5px solid #f57d31;
+    }
+
      .fire>div>span{
       background-color: #f57d31;
       height: 100%;
@@ -251,11 +279,15 @@
       align-items: center;
      }
 
-     
      .bug{
       border-color: #a7b723;
       color: #a7b723;
      }
+
+    .bugbg {
+      background-color: #a7b723;
+      border: 5px solid #a7b723;
+    }
 
      .bug>div>span{
       background-color: #a7b723;
@@ -276,19 +308,19 @@
      .steelbg{
       background-color: #b7b9d0;
       border: 5px solid #b7b9d0;
-      
      }
 
      .steel>div>span{
+      display: grid;
       background-color: #b7b9d0;
       height: 100%;
       width: 100%;
       border-bottom-left-radius: 10px;
       border-bottom-right-radius: 10px;
       text-align: center;
-      display: grid;
       align-items: center;
      }
+
 
      .Modal-grid{
       display: grid;
@@ -319,8 +351,9 @@
       filter: invert(100%) sepia(0%) saturate(7499%) hue-rotate(125deg) brightness(100%) contrast(100%);;
      }
 
+
     .white{
-      filter: invert(100%) sepia(0%) saturate(7499%) hue-rotate(125deg) brightness(100%) contrast(100%);;
+      filter: invert(93%) sepia(36%) saturate(462%) hue-rotate(206deg) brightness(108%) contrast(106%);
     }
 
     .arrow-right{ /*  ROTACION DE FLECHA  */
@@ -376,17 +409,16 @@
 
     .modal-type {
       position: relative;
-      height: 30%;
-      width: 14%;
+      height: 25%;
+      width: 20%;
       color: white;
       border-radius: 15px;
       display: grid;
       bottom: -30%;
       justify-items: center;
-      font-weight: bold;
-
-      
+      font-weight: bold;      
     }
+    
     .color{
       background-color: #f57d31;
     }
@@ -403,6 +435,7 @@
       align-items: center;
       justify-items: center;
     }
+
     .modal-description{
       height: 100%;
       width: 90%;
@@ -432,8 +465,7 @@
     }
 
     .line{
-      border-right: 2px solid gray;
-
+      border-right: 2px solid #e0e0e0
     }
  }  
 
