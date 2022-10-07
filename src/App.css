@@ -292,8 +292,61 @@
       align-items: center;
      }
 
+     .Modal-grid{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 12fr 1fr 1fr 3fr 2fr 1fr 9fr;
+      background-color: #f57d31;
+      height: 100vh;
+      width: 100v2;
+     }
 
+     .modal-name{
+      background-image: url(/public/Imagenes/Pokeball.png);
+      background-repeat: no-repeat;
+      background-position:95% 10%;
+      
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 2fr;
+      align-items: center;
+      justify-items: center;
+      color: white;
+      font-size: 25px;
+      font-weight: bold;
+     }
 
+     .modal-name>div>span{
+      font-size: 15px;
+     }
+
+     .modal-name>div>img{
+      filter: invert(100%) sepia(0%) saturate(7499%) hue-rotate(125deg) brightness(100%) contrast(100%);;
+     }
+
+     .modal-img{
+      display: grid;
+      grid-template-columns: 1fr 4fr 1fr;
+      align-items: center;
+      justify-items: center;
+    }
+
+    .white{
+      filter: invert(100%) sepia(0%) saturate(7499%) hue-rotate(125deg) brightness(100%) contrast(100%);;
+    }
+
+    .arrow-right{
+      transform: rotate(180deg);
+    }
+    .modal-1row{
+      display: grid;
+      grid-template-columns: 1fr 4fr 1fr;
+    }
+
+    .modal-2row{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
 
  }
 
