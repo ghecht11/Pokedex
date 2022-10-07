@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Data from "../db.json"
 
 
@@ -10,7 +11,7 @@ const PokemonList=()=>{
             <div className="pokeList">
                 {Pokemons.pokemones.map((pokemon,index)=>{ 
                     return (
-                    <div key={pokemon.id}>
+                    <Link to={`/${pokemon.id}`} key={pokemon.id}>
                     
                     <div className={`Pokemon-Container ${pokemon.type}`} >
                     <div className="pokemon-number"> 
@@ -26,7 +27,7 @@ const PokemonList=()=>{
                         <span>{pokemon.name}</span>
                     </div>
                 </div>
-                </div>
+                </Link>
                     )
                 })}
                 

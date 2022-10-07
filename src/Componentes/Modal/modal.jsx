@@ -1,15 +1,16 @@
-import React from "react";
+import React, { useState} from "react";
+import { useParams } from "react-router-dom";
 import Data from "./db.json"
 
 
 const Modal =()=>{
         const Pokemons=Data;
+        const params = useParams()
+        const [pokemon,setPokemon] = useState(Pokemons.pokemones.find((pokemon)=>pokemon.id==params.id))
         console.log("hola");
     return(
         
         <>
-         {Pokemons.pokemones.map((pokemon,index)=>{ 
-            return (
         <div className={`Modal-grid ${pokemon.background}`}>
             <div className="modal-name"> 
                 <div className="modal-1row">
@@ -76,11 +77,10 @@ const Modal =()=>{
                     </div>
                 </div>
                 <div className="modal-description"> {pokemon.description}</div>
-                <div className="about">base stats</div>
+                <div className={`about ${pokemon.type}`}>base stats</div>
                 <div>stats</div>
             </div>
         </div>
-        )})}
     </>
     )
 }

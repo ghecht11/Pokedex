@@ -17,7 +17,7 @@ function App() {
      <Routes>
      <Route path="/" element={<Home/>}/>
 
-     <Route path="/modal" element={<Modal/>}/>
+     <Route path="/:id" element={<Modal/>}/>
 
 
       

@@ -118,6 +118,7 @@
       width: 100%;
       font-size: 14px;
       color: white; /*Todos los textos son blancos*/
+      text-decoration: none;
     }
 
     .pokemon-image{
@@ -128,6 +129,7 @@
     .pokemon-number{
       margin-left: 60%;
       font-size: 10px;
+      text-decoration: none;
     }
 
     
