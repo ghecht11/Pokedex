@@ -91,6 +91,10 @@
       align-items: center;
     }
 
+    .pokeList a {
+      text-decoration: none;
+    }
+
     .Pokemon-Container{  /*contenedor del pokemon*/
       display: grid;
       grid-template-columns: 1fr;
@@ -101,6 +105,11 @@
       border-radius: 15px;
       align-items: center;
       justify-items: center;
+      
+    }
+
+    .Pokemon-Container {
+      text-decoration: none;
     }
      
     .Pokemon-Container>div>img{  /*Tamaño de la imagen*/
@@ -331,8 +340,13 @@
       height: 100%;
       width: AUTO;
       border-radius: 15px;
+      
      }
 
+     .Modal-grid a{
+      text-decoration:none !important;
+
+     }
      .modal-name{
       background-image: url(/public/Imagenes/Pokeball.png);
       background-repeat: no-repeat;
@@ -469,6 +483,22 @@
     .line{
       border-right: 2px solid #e0e0e0
     }
- }  
+
+    .modal-stats{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+ 
+
+  .modal-stats > div > ul {
+    list-style: none;
+  }
+
+
+
+
+
+} 
+
 
  

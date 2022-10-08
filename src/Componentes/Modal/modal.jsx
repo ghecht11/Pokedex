@@ -6,7 +6,7 @@ import Data from "./db.json"
 const Modal =()=>{
         const Pokemons=Data;
         const params = useParams()
-        const [pokemon,setPokemon] = useState(Pokemons.pokemones.find((pokemon)=>pokemon.id==params.id))
+        const [pokemon,setPokemon] = useState(Pokemons.pokemones.find((pokemon)=>pokemon.id===params.id))
         console.log("hola");
     return(
         
@@ -78,7 +78,38 @@ const Modal =()=>{
                 </div>
                 <div className="modal-description"> {pokemon.description}</div>
                 <div className={`about ${pokemon.type}`}>base stats</div>
-                <div>stats</div>
+                <div className="modal-stats">
+                    <div className="line">
+                        <ul className={`about ${pokemon.type}`}>
+                            <li>HP</li>
+                            <li>ATK</li>
+                            <li>DEF</li>
+                            <li>SATK</li>
+                            <li>SDEF</li>
+                            <li>SPD</li>
+                        </ul>
+                    </div>
+                    <div >
+                        <ul>
+                            <li>{pokemon.HP}</li>
+                            <li>{pokemon.ATK}</li>
+                            <li>{pokemon.DEF}</li>
+                            <li>{pokemon.SATK}</li>
+                            <li>{pokemon.SDEF}</li>
+                            <li>{pokemon.SPD}</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>{pokemon.HP}</li>
+                            <li>{pokemon.ATK}</li>
+                            <li>{pokemon.DEF}</li>
+                            <li>{pokemon.SATK}</li>
+                            <li>{pokemon.SDEF}</li>
+                            <li>{pokemon.SPD}</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </>
