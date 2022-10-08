@@ -17,7 +17,8 @@
   "SDEF": 40,
   "SPD":30,
   "background":"steelbg",
-  "type2":"Rock"
+  "type2":"rock",
+  "background2":"rockbg"
    
 },
 
@@ -37,7 +38,8 @@
   "SDEF": 65,
   "SPD": 45 ,
   "background":"grassbg",
-  "type2":"Poison"
+  "type2":"Poison",
+  "background2":"poisonbg"
 },
 
 {
@@ -56,7 +58,8 @@
   "SDEF": 80,
   "SPD": 70,
   "background":"bugbg",
-  "type2":"Flying"
+  "type2":"flying",
+  "background2":"flyingbg"
 },
 
   {
@@ -75,7 +78,8 @@
   "SDEF": 50,
   "SPD": 65,
   "background":"firebg",
-  "type2":""
+  "type2":"",
+  "types":"onetype"
 },
 
 {
@@ -95,7 +99,8 @@
   "SDEF": 48,
   "SPD": 48,
   "background":"normalbg",
-  "type2":"" 
+  "type2":"" ,
+  "types":"onetype"
 },
 
 {
@@ -114,7 +119,9 @@
   "SDEF": 35,
   "SPD": 80,
   "background":"ghostbg",
-  "type2":"Type" 
+  "type2":"poison", 
+  "background2":"poisonbg"
+  
 },
 
 {
@@ -122,7 +129,7 @@
   "name": "Mew",
   "id": "152",
   "image":"./Imagenes/mew.png",
-  "type": "psychic",
+  "type": "Psychic",
   "weight": "4,0kg",
   "height": "0,4m",
   "moves": "Synchronize",
@@ -134,7 +141,8 @@
   "SDEF": 100,
   "SPD": 100,
   "background":"psychicbg",
-  "type2":"" 
+  "type2":"",
+  "types":"onetype" 
 },
 
 {
@@ -153,7 +161,8 @@
   "SDEF": 50,
   "SPD": 90,
   "background":"electricbg",
-  "type2":""
+  "type2":"",
+  "types":"onetype"
 },
 
 {
@@ -172,7 +181,8 @@
   "SDEF": 64,
   "SPD": 43,
   "background":"waterbg",
-  "type2":""
+  "type2":"",
+  "types":"onetype"
 }
 ]
 

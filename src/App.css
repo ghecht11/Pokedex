@@ -164,6 +164,27 @@
       align-items: center;
     }
 
+    .poison {
+      border-color: #a43e9e;
+      color: #a43e9e;
+    }
+
+    .poisonbg {
+      background-color: #a43e9e;
+      border: 5px solid #a43e9e;
+    }
+
+    .poison>div>span {
+      background-color: #a43e9e;
+      height: 100%;
+      width: 100%;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      text-align: center;
+      display: grid;
+      align-items: center;
+    }
+
     .water{
       border-color: #6493eb;
       color: #6493eb;
@@ -253,10 +274,10 @@
       color: #aaa67f;
     }
 
-      .normalbg {
-        background-color: #aaa67f;
-        border: 5px solid #aaa67f;
-      }
+    .normalbg {
+      background-color: #aaa67f;
+      border: 5px solid #aaa67f;
+    }
 
      .normal>div>span{
       background-color: #aaa67f;
@@ -311,6 +332,27 @@
       align-items: center;
      }
 
+      .flying {
+        border-color: #a891ec;
+        color: #a891ec;
+      }
+
+      .flyingbg {
+        background-color: #a891ec;
+        border: 5px solid #a891ec;
+      }
+
+      .flying>div>span {
+        background-color: #a891ec;
+        height: 100%;
+        width: 100%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        text-align: center;
+        display: grid;
+        align-items: center;
+      }
+
      .steel{
       border-color: #b7b9d0;
       color: #b7b9d0;
@@ -319,6 +361,7 @@
      .steelbg{
       background-color: #b7b9d0;
       border: 5px solid #b7b9d0;
+      
      }
 
      .steel>div>span{
@@ -331,6 +374,28 @@
       text-align: center;
       align-items: center;
      }
+
+     .rock{
+      border-color: #b69e31;
+      color: #b69e31;
+     }
+
+    .rockbg {
+      background-color: #b69e31;
+      border: 5px solid #b69e31;
+
+    }
+
+    .rock>div>span {
+      display: grid;
+      background-color: #b69e31;
+      height: 100%;
+      width: 100%;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      text-align: center;
+      align-items: center;
+    }
 
 
      .Modal-grid{
@@ -426,13 +491,23 @@
     .modal-type {
       position: relative;
       height: 25%;
-      width: 20%;
+      width: 100%;
       color: white;
       border-radius: 15px;
       display: grid;
       bottom: -30%;
       justify-items: center;
       font-weight: bold;      
+    }
+
+    .modal-types{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      height: 100%;
+      width: 40%;
+      gap: 20px;
+      align-items: center;
+      justify-items: center;
     }
     
     .color{
@@ -481,17 +556,40 @@
     }
 
     .line{
-      border-right: 2px solid #e0e0e0
+      border-right: 2px solid #e0e0e0;
+      height: 60%;
+    }
+
+    .margin-separator{
+      margin: 10px;
     }
 
     .modal-stats{
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 5fr;
+      height: 100%;
+      width: 100%;
     }
  
 
   .modal-stats > div > ul {
     list-style: none;
+  }
+
+  .modal-range{
+    height: 100%;
+    width: 100%;
+  }
+
+  .slider
+  { 
+    width: 90%;
+    height: 13px;
+  }
+
+  .onetype{
+    position: relative;
+    left: 40px;
   }
 
 

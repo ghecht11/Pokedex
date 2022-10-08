@@ -44,8 +44,9 @@ const Modal =()=>{
             <div className="modal-bottom">
 
 
-                <div className={`modal-type ${pokemon.background}`}>
-                    <span>{pokemon.type}</span>
+                <div className={`modal-types ${pokemon.types}`}>
+                    <span className={`modal-type ${pokemon.background}`}>{pokemon.type}</span>
+                    <span className={`modal-type ${pokemon.background2}`}>{pokemon.type2}</span>
                 </div>
 
                 
@@ -80,7 +81,7 @@ const Modal =()=>{
                 <div className={`about ${pokemon.type}`}>base stats</div>
                 <div className="modal-stats">
                     <div className="line">
-                        <ul className={`about ${pokemon.type}`}>
+                        <ul className={`about ${pokemon.type} margin-separator`}>
                             <li>HP</li>
                             <li>ATK</li>
                             <li>DEF</li>
@@ -99,14 +100,14 @@ const Modal =()=>{
                             <li>{pokemon.SPD}</li>
                         </ul>
                     </div>
-                    <div>
+                    <div className="modal-range">
                         <ul>
-                            <li>{pokemon.HP}</li>
-                            <li>{pokemon.ATK}</li>
-                            <li>{pokemon.DEF}</li>
-                            <li>{pokemon.SATK}</li>
-                            <li>{pokemon.SDEF}</li>
-                            <li>{pokemon.SPD}</li>
+                            <li><progress value={pokemon.HP} max="100">{pokemon.HP}%</progress></li>
+                            <li><progress value={pokemon.ATK} max="100">{pokemon.ATK}%</progress></li>
+                            <li><progress value={pokemon.DEF} max="100">{pokemon.DEF}%</progress></li>
+                            <li><progress value={pokemon.SATK} max="100">{pokemon.SATK}%</progress></li>
+                            <li><progress value={pokemon.SDEF} max="100">{pokemon.SDEF}%</progress></li>
+                            <li><progress value={pokemon.SPD} max="100">{pokemon.SPD}%</progress></li>
                         </ul>
                     </div>
                 </div>
