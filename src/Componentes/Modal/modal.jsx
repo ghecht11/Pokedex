@@ -1,6 +1,7 @@
 import React, { useState} from "react";
 import { useParams } from "react-router-dom";
 import Data from "./db.json"
+import { Link } from "react-router-dom";
 
 
 const Modal =()=>{
@@ -14,9 +15,9 @@ const Modal =()=>{
         <div className={`Modal-grid ${pokemon.background}`}>
             <div className="modal-name"> 
                 <div className="modal-1row">
-                    <div>
-                        <img src="./Imagenes/arrow-left.svg" className="white" alt=""/>
-                    </div>
+                    <Link to={`/`} key={pokemon.id}>
+                        <img src="./Imagenes/arrow-left.svg" className="white" alt="" />
+                    </Link>
 
                     <div>{pokemon.name}</div>
 
@@ -78,7 +79,7 @@ const Modal =()=>{
                     </div>
                 </div>
                 <div className="modal-description"> {pokemon.description}</div>
-                <div className={`about ${pokemon.type}`}>base stats</div>
+                <div className={`about ${pokemon.type}`}>Base stats</div>
                 <div className="modal-stats">
                     <div className="line">
                         <ul className={`about ${pokemon.type} margin-separator`}>
