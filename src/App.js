@@ -6,6 +6,18 @@ import Modal from './Componentes/Modal/modal';
 
 
 function App() {
+
+  const [list, SetList] = useState([]); 
+  const [order, SetOrder] = useState("id");
+
+  useEffect(()=>){
+      let auxList = list
+      
+
+  }
+
+
+
   return (
      
   <BrowserRouter>

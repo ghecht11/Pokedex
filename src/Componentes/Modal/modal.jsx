@@ -8,7 +8,7 @@ const Modal =()=>{
         const Pokemons=Data;
         const params = useParams()
         const [pokemon,setPokemon] = useState(Pokemons.pokemones.find((pokemon)=>pokemon.id===params.id))
-        console.log("hola");
+        
     return(
         
         <>

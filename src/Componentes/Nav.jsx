@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 const Navbar =()=> {
+
+
     return(
+
+      
         <div className="NavBar"> {/*Div contenedor */}
 
             <div className="nav-first-row"> {/*Div con logo y texto*/}
