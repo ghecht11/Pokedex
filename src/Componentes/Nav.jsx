@@ -19,8 +19,8 @@ const Navbar =(props)=> {
                     
                 </div>
                 
-                <div className="nav-columns2" >
-                    <div className="hashtag centrado">#</div>
+                <div className="nav-columns2">
+                    <div className="hashtag centrado" onClick={()=>props.changeOrder()}>{props.orderByNumber ? '#' : 'AZ'} </div>
                     <div><img src="./Imagenes/Arrow.svg" alt=""  className="nav-filter"/></div>
                 </div>
 
