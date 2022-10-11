@@ -29,7 +29,7 @@ const Navbar =(props)=> {
             </div>
 
             <div className="nav-second-row"> {/*Div con filter */}
-            <input type="search" placeholder="Buscar" className="finder"/>
+            <input type="search" placeholder="Buscar" className="finder" onChange={(e)=>props.setInputSearch(e.target.value)}/>
 
             </div>
         </div>

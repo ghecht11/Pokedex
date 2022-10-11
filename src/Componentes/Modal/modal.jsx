@@ -7,8 +7,25 @@ import { Link } from "react-router-dom";
 const Modal =()=>{
         const Pokemons=Data;
         const params = useParams()
-        const [pokemon,setPokemon] = useState(Pokemons.pokemones.find((pokemon)=>pokemon.id===params.id))
+        const [pokemon,setPokemon] = useState(Pokemons.pokemones.find((pokemon)=>pokemon.id===params.id));
         
+        class Guide extends React.Component 
+        {
+        constructor() 
+        {
+            super();
+            this.state = {
+            index: 0
+            };    
+        }
+        
+        goToNext = () => 
+        {
+            this.setState({ index: (this.state.index + 1) % Pokemons.pokemones.length });
+        };
+    }
+        
+
     return(
         
         <>
@@ -28,15 +45,15 @@ const Modal =()=>{
 
               
                 <div className="modal-2row">
-                    <div className="white arrow">
+                    <div className="white arrow"> {/*Cambio de pagina al anterior pokemon */}
                         <img src="./Imagenes/frame.svg" className="arrow-right " alt=""/>
                     </div>
 
-                    <div className="div-poke-img">
+                    <div className="div-poke-img">  
                         <img src={pokemon.image} className="modal-poke-img" alt="" />
                     </div>
 
-                    <div className="white arrow">
+                    <div className="white arrow" onClick={this.goToNext}> {/*Cambio de pagina al anterior pokemon */}
                         <img src="./Imagenes/frame.svg"  alt="" />
                     </div>
                 </div>
@@ -62,7 +79,7 @@ const Modal =()=>{
                             <div><img src="/Imagenes/Weight.svg" alt=""/></div>
                             <div className="bolder">{pokemon.weight}</div>    
                         </div>
-                        <div>Weight</div>
+                        <div className="whm">Weight</div>
                     </div>
 
                     <div className="tworows line">
@@ -70,12 +87,12 @@ const Modal =()=>{
                             <div><img src="/Imagenes/height.svg" alt=""/></div>
                             <div className="bolder">{pokemon.height}</div>
                         </div>
-                        <div>Height</div>
+                        <div className="whm">Height</div>
                     </div>
 
                     <div className="tworows">
                             <div>{pokemon.moves} </div>
-                            <div>Moves</div>
+                            <div className="whm">Moves</div>
                     </div>
                 </div>
                 <div className="modal-description"> {pokemon.description}</div>

@@ -2,7 +2,6 @@ import React from "react"
 import Navbar from "./Nav"
 import PokemonList from "./PokemonList"
 import { useState, useEffect } from 'react';
-import Data from "../db.json"
 
 
 const Home = (props) => {
@@ -12,7 +11,7 @@ const Home = (props) => {
 
   useEffect(()=>{
       let auxList = props.list
-      if(!orderByNumber){
+      if(!orderByNumber){  /*Si es Distinta al orden numerico nos toma el orden Alfabetico */
         console.log("Ordeno por letra")
         auxList.sort((a,b)=>String(a.name).localeCompare(b.name))
         /*Setea el orden por letra */
@@ -23,19 +22,19 @@ const Home = (props) => {
         /*Seteo el orden por id */
       }
       console.log(auxList)
-      setOrderedList(auxList)
+      setOrderedList(auxList)  /*seteamos el orden de la lista segun el filtro */
   },[orderByNumber])
 
-  function changeOrder (){
+  function changeOrder (){  /*Es la funcion para el boton que arrmamos arriba*/
     setOrderByNumber(!orderByNumber)
-    
   }
 
+  const [inputSearch,setInputSearch]=useState("")
   
     return(
         <>
-        <Navbar  changeOrder={changeOrder} orderByNumber={orderByNumber} />
-        <PokemonList list={orderedList}/>
+        <Navbar inputSearch={inputSearch} setInputSearch={setInputSearch} changeOrder={changeOrder} orderByNumber={orderByNumber} />  {/* es el que recibe el cambio de orden de la lista */}
+        <PokemonList list={orderedList.filter((pokemon)=>pokemon.name.toLowerCase().includes(inputSearch.toLowerCase()))}/>        {/* es el que recibe la lista ordenada */}
         </>
     )
 }

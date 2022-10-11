@@ -150,7 +150,7 @@
 
     .grassbg {
       background-color: #74cb48;
-      border: 5px solid #74cb48;
+      border: 4px solid #74cb48;
     }
 
     .grass>div>span {
@@ -171,7 +171,7 @@
 
     .poisonbg {
       background-color: #a43e9e;
-      border: 5px solid #a43e9e;
+      border: 4px solid #a43e9e;
     }
 
     .poison>div>span {
@@ -192,7 +192,7 @@
 
     .waterbg {
       background-color: #6493eb;
-      border: 5px solid #6493eb;
+      border: 4px solid #6493eb;
     }
 
     .water>div>span{
@@ -213,7 +213,7 @@
 
    .electricbg {
     background-color: #f9cf30;
-    border: 5px solid #f9cf30;
+    border: 4px solid #f9cf30;
    }
 
     .electric>div>span{
@@ -234,7 +234,7 @@
 
     .psychicbg {
       background-color: #fb5584;
-      border: 5px solid #fb5584;
+      border: 4px solid #fb5584;
     }
 
     .psychic>div>span{
@@ -255,7 +255,7 @@
 
     .ghostbg {
       background-color: #705584;
-      border: 5px solid #705584;
+      border: 4px solid #705584;
     }
 
     .ghost>div>span{
@@ -276,7 +276,7 @@
 
     .normalbg {
       background-color: #aaa67f;
-      border: 5px solid #aaa67f;
+      border: 4px solid #aaa67f;
     }
 
      .normal>div>span{
@@ -297,7 +297,7 @@
 
     .firebg {
       background-color: #f57d31;
-      border: 5px solid #f57d31;
+      border: 4px solid #f57d31;
     }
 
      .fire>div>span{
@@ -318,7 +318,7 @@
 
     .bugbg {
       background-color: #a7b723;
-      border: 5px solid #a7b723;
+      border: 4px solid #a7b723;
     }
 
      .bug>div>span{
@@ -339,7 +339,7 @@
 
       .flyingbg {
         background-color: #a891ec;
-        border: 5px solid #a891ec;
+        border: 4px solid #a891ec;
       }
 
       .flying>div>span {
@@ -360,7 +360,7 @@
 
      .steelbg{
       background-color: #b7b9d0;
-      border: 5px solid #b7b9d0;
+      border: 4px solid #b7b9d0;
       
      }
 
@@ -382,7 +382,7 @@
 
     .rockbg {
       background-color: #b69e31;
-      border: 5px solid #b69e31;
+      border: 4px solid #b69e31;
 
     }
 
@@ -402,8 +402,8 @@
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 2fr;
-      height: 100%;
-      width: AUTO;
+      height: 99vh;
+      width: auto;
       border-radius: 15px;
       
      }
@@ -480,7 +480,7 @@
       width: 100%;
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: 2fr 1fr 2fr 2fr 1fr 6fr ;
+      grid-template-rows: 10% 5% 30% 10% 5% 40% ;
       justify-items: center;
       align-items: center;
     }
@@ -492,14 +492,14 @@
 
     .modal-type {
       position: relative;
-      height: 25%;
+      height: 40%;
       width: 100%;
       color: white;
       border-radius: 15px;
       display: grid;
       bottom: -30%;
       justify-items: center;
-      font-weight: bold;      
+      font-weight: bold;
     }
 
     .modal-types{
@@ -530,6 +530,9 @@
     }
 
     .modal-description{
+      display: grid;
+      align-items: center;
+      justify-items: center;
       height: 100%;
       width: 90%;
     }
@@ -541,6 +544,10 @@
       grid-template-columns: 1fr 2fr;
       height: 100%;
       width: 100%;
+    }
+
+    .whm{
+      font-size: 12px;
     }
     
     .tworows{

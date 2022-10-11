@@ -129,7 +129,7 @@
   "name": "Mew",
   "id": "151",
   "image":"./Imagenes/mew.png",
-  "type": "Psychic",
+  "type": "psychic",
   "weight": "4,0kg",
   "height": "0,4m",
   "moves": "Synchronize",
