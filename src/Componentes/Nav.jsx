@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
-const Navbar =()=> {
 
+
+const Navbar =(props)=> {
 
     return(
 
@@ -18,12 +19,12 @@ const Navbar =()=> {
                     
                 </div>
                 
-                <div className="nav-columns2">
+                <div className="nav-columns2" >
                     <div className="hashtag centrado">#</div>
                     <div><img src="./Imagenes/Arrow.svg" alt=""  className="nav-filter"/></div>
-                    
-                    
                 </div>
+
+                
                 
             </div>
 

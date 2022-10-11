@@ -1,15 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Data from "../db.json"
 
 
-const PokemonList=()=>{
-    const Pokemons=Data;
-    console.log(Pokemons);
+const PokemonList=(props)=>{
+
     return(
         <>
             <div className="pokeList">
-                {Pokemons.pokemones.map((pokemon,index)=>{ 
+                {props.list.map((pokemon,index)=>{ 
                     return (
                     <Link to={`/${pokemon.id}`} key={pokemon.id}>
                     

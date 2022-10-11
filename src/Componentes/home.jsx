@@ -2,11 +2,11 @@ import React from "react"
 import Navbar from "./Nav"
 import PokemonList from "./PokemonList"
 
-const Home = () => {
+const Home = (props) => {
     return(
         <>
         <Navbar/>
-        <PokemonList/>
+        <PokemonList list={props.list}/>
         </>
     )
 }
