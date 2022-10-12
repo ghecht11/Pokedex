@@ -8,23 +8,8 @@ const Modal =()=>{
         const Pokemons=Data;
         const params = useParams()
         const [pokemon,setPokemon] = useState(Pokemons.pokemones.find((pokemon)=>pokemon.id===params.id));
-        
-        class Guide extends React.Component 
-        {
-        constructor() 
-        {
-            super();
-            this.state = {
-            index: 0
-            };    
-        }
-        
-        goToNext = () => 
-        {
-            this.setState({ index: (this.state.index + 1) % Pokemons.pokemones.length });
-        };
-    }
-        
+const [index, setIndex] = useState (Pokemons.pokemones.indexOf(pokemon))
+console.log(index)
 
     return(
         
@@ -53,7 +38,7 @@ const Modal =()=>{
                         <img src={pokemon.image} className="modal-poke-img" alt="" />
                     </div>
 
-                    <div className="white arrow" onClick={this.goToNext}> {/*Cambio de pagina al anterior pokemon */}
+                    <div className="white arrow" > {/*Cambio de pagina al anterior pokemon */}
                         <img src="./Imagenes/frame.svg"  alt="" />
                     </div>
                 </div>
@@ -133,7 +118,10 @@ const Modal =()=>{
         </div>
     </>
     )
+
 }
-    
+        
+
+
 
 export default Modal;

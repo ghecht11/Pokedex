@@ -20,6 +20,7 @@ const PokemonList=(props)=>{
                                     <img src={pokemon.image} alt=""/>
                                 </div>
 
+
                                 <div className="pokemon-name">
                                     <span>{pokemon.name}</span>
                                 </div>
