@@ -3,6 +3,10 @@ import { useParams } from "react-router-dom";
 import Data from "./db.json"
 import { Link } from "react-router-dom";
 import ProgressBar from "@ramonak/react-progress-bar";
+
+
+
+
 const Example = () => {
   return <ProgressBar completed={10} />;
 };
@@ -123,14 +127,8 @@ const Modal =()=>{
                         </ul>
                     </div>
                     <div className="modal-range">  {/*DIV CON LAS STATS EN BARRAS DEL POKEMON */}
-                        <ul >
-                            <li><ProgressBar completed={pokemon.HP} maxCompleted={100} bgColor={pokemon.background}/></li>
-                            <li><ProgressBar completed={pokemon.ATK} maxCompleted={100} bgColor={pokemon.color}/></li>
-                            <li><ProgressBar completed={pokemon.DEF} maxCompleted={100} bgColor={pokemon.color}/></li>
-                            <li><ProgressBar completed={pokemon.SATK} maxCompleted={100} bgColor={pokemon.color}/></li>
-                            <li><ProgressBar completed={pokemon.SDEF} maxCompleted={100} bgColor={pokemon.color}/></li>
-                            <li><ProgressBar completed={pokemon.SPD} maxCompleted={100} className={pokemon.color}/></li>
-                        </ul>
+                    <ProgressBar now={15} completed={"10%"} />
+
                     </div>
                 </div>
             </div>
