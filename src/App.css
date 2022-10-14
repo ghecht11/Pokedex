@@ -416,6 +416,12 @@
       width: auto;
       border-radius: 15px;
       
+
+      
+     }
+
+     html, body{
+      overflow: auto;
      }
 
      .Modal-grid a{
