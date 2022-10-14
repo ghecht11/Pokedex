@@ -4,9 +4,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './Componentes/home';
 import Modal from './Componentes/Modal/modal';
 import { useState, useEffect } from 'react';
-import Data from "./db.json"
+import Data from "./Pokeinfo.json"
 
-
+const info=Data
 function App() {
 
   const [list, SetList] = useState(Data.pokemones); 

@@ -1,15 +1,11 @@
 import React, { useEffect, useState} from "react";
 import { useParams } from "react-router-dom";
-import Data from "./db.json"
+import Data from "./Pokemodal.json"
 import { Link } from "react-router-dom";
-import ProgressBar from "@ramonak/react-progress-bar";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ProgressBar from 'react-bootstrap/ProgressBar';
 
 
-
-
-const Example = () => {
-  return <ProgressBar completed={10} />;
-};
 
 
 const Modal =()=>{
@@ -75,7 +71,7 @@ const Modal =()=>{
                 </div>
 
                 
-                <div className={`bolder ${pokemon.type}`}> 
+                <div className={`bolder ${pokemon.type} martop`}> 
                     About
                 </div>
 
@@ -98,15 +94,15 @@ const Modal =()=>{
                     </div>
 
                     <div className="tworows">
-                            <div>{pokemon.moves} </div>
-                            <div className="whm">Moves</div>
+                            <div >{pokemon.moves} </div>
+                            <div className="whm moves">Moves</div>
                     </div>
                 </div>
                 <div className="modal-description "> {pokemon.description}</div>{/*DIV CON DESCRIPCION DEL POKEMON */}
 
-                <div className={`bolder martop ${pokemon.type}`}>Base stats</div>{/*DIV CON TEXTO DE STATS*/}
+                <div className={`bolder  ${pokemon.type}`}>Base stats</div>{/*DIV CON TEXTO DE STATS*/}
                 <div className="modal-stats">
-                    <div className="line">
+                    <div className="line2">
                         <ul className={`about ${pokemon.type}`}> 
                             <li>HP</li>
                             <li>ATK</li>
@@ -118,17 +114,21 @@ const Modal =()=>{
                     </div>
                     <div className="centrado">
                         <ul>  {/*DIV CON LA INFO DE ESTADISTICAS DEL POKEMON*/}
-                            <li>{pokemon.HP}</li>
-                            <li>{pokemon.ATK}</li>
-                            <li>{pokemon.DEF}</li>
-                            <li>{pokemon.SATK}</li>
-                            <li>{pokemon.SDEF}</li>
-                            <li>{pokemon.SPD}</li>
+                            <li>{`${pokemon.HP}`}</li>
+                            <li>{`${pokemon.ATK}`}</li>
+                            <li>{`${pokemon.DEF}`}</li>
+                            <li>{`${pokemon.SATK}`}</li>
+                            <li>{`${pokemon.SDEF}`}</li>
+                            <li>{`${pokemon.SPD}`}</li>
                         </ul>
                     </div>
                     <div className="modal-range">  {/*DIV CON LAS STATS EN BARRAS DEL POKEMON */}
-                    <ProgressBar now={15} completed={"10%"} />
-
+                        <ProgressBar now={pokemon.HP} className={`${pokemon.type} progressBar`}  />
+                        <ProgressBar now={pokemon.ATK} className={`${pokemon.type} progressBar`}/>
+                        <ProgressBar now={pokemon.DEF} className={`${pokemon.type} progressBar`}/>
+                        <ProgressBar now={pokemon.SATK} className={`${pokemon.type} progressBar`}/>
+                        <ProgressBar now={pokemon.SDEF} className={`${pokemon.type} progressBar`}/>
+                        <ProgressBar now={pokemon.SPD} className={`${pokemon.type} progressBar`}/>
                     </div>
                 </div>
             </div>

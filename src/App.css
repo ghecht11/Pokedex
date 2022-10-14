@@ -90,8 +90,9 @@
     .pokeList{  /*Grilla con pokemones*/
       display: grid;
       height: 50vh;
-      width: 95vw;
+      width: 100vw;
       grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
       justify-items: center;
       align-items: center;
     }
@@ -144,9 +145,10 @@
       text-decoration: none;
     }
 
-    .grass{
+    .Grass{
       border-color: #74cb48;
       color: #74cb48;
+      --bs-progress-bar-bg: #74cb48 !important;
     }
 
     .grassbg {
@@ -154,7 +156,7 @@
       border: 4px solid #74cb48;
     }
 
-    .grass>div>span {
+    .Grass>div>span {
       background-color: #74cb48;
       height: 100%;
       width: 100%;
@@ -175,7 +177,7 @@
       border: 4px solid #a43e9e;
     }
 
-    .poison>div>span {
+    .Poison>div>span {
       background-color: #a43e9e;
       height: 100%;
       width: 100%;
@@ -186,9 +188,10 @@
       align-items: center;
     }
 
-    .water{
+    .Water{
       border-color: #6493eb;
       color: #6493eb;
+      --bs-progress-bar-bg: #6493eb !important;
     }
 
     .waterbg {
@@ -196,7 +199,7 @@
       border: 4px solid #6493eb;
     }
 
-    .water>div>span{
+    .Water>div>span{
       background-color: #6493eb;
       height: 100%;
       width: 100%;
@@ -207,9 +210,10 @@
       align-items: center;
     }
 
-    .electric{
+    .Electric{
     border-color: #f9cf30;
     color: #f9cf30;
+    --bs-progress-bar-bg: #f9cf30 !important;
     }
 
    .electricbg {
@@ -217,7 +221,7 @@
     border: 4px solid #f9cf30;
    }
 
-    .electric>div>span{
+    .Electric>div>span{
     background-color: #f9cf30;
     height: 100%;
     width: 100%;
@@ -228,9 +232,10 @@
     align-items: center;
     }
 
-    .psychic{
+    .Psychic{
     border-color: #fb5584;
     color: #fb5584;
+    --bs-progress-bar-bg: #fb5584 !important;
     }
 
     .psychicbg {
@@ -238,7 +243,7 @@
       border: 4px solid #fb5584;
     }
 
-    .psychic>div>span{
+    .Psychic>div>span{
     background-color: #fb5584;
     height: 100%;
     width: 100%;
@@ -249,9 +254,10 @@
     align-items: center;
     }
 
-    .ghost{
+    .Ghost{
     border-color: #705584;
     color: #705584;
+    --bs-progress-bar-bg: #705584 !important;
     }
 
     .ghostbg {
@@ -259,7 +265,7 @@
       border: 4px solid #705584;
     }
 
-    .ghost>div>span{
+    .Ghost>div>span{
     background-color: #705584;
     height: 100%;
     width: 100%;
@@ -270,9 +276,10 @@
     align-items: center;
     }
 
-    .normal{
+    .Normal{
       border-color: #aaa67f;
       color: #aaa67f;
+      --bs-progress-bar-bg: #aaa67f !important;
     }
 
     .normalbg {
@@ -280,7 +287,7 @@
       border: 4px solid #aaa67f;
     }
 
-     .normal>div>span{
+     .Normal>div>span{
       background-color: #aaa67f;
       height: 100%;
       width: 100%;
@@ -291,9 +298,10 @@
       align-items: center;
      }
 
-     .fire{
+     .Fire{
       border-color: #f57d31;
       color: #f57d31;
+      --bs-progress-bar-bg: #f57d31 !important;
      }
 
     .firebg {
@@ -301,7 +309,7 @@
       border: 4px solid #f57d31;
     }
 
-     .fire>div>span{
+     .Fire>div>span{
       background-color: #f57d31;
       height: 100%;
       width: 100%;
@@ -312,9 +320,10 @@
       align-items: center;
      }
 
-     .bug{
+     .Bug{
       border-color: #a7b723;
       color: #a7b723;
+      --bs-progress-bar-bg: #a7b723 !important;
      }
 
     .bugbg {
@@ -322,7 +331,7 @@
       border: 4px solid #a7b723;
     }
 
-     .bug>div>span{
+     .Bug>div>span{
       background-color: #a7b723;
       height: 100%;
       width: 100%;
@@ -333,9 +342,10 @@
       align-items: center;
      }
 
-      .flying {
+      .Flying {
         border-color: #a891ec;
         color: #a891ec;
+        --bs-progress-bar-bg: #a891ec !important;
       }
 
       .flyingbg {
@@ -343,7 +353,7 @@
         border: 4px solid #a891ec;
       }
 
-      .flying>div>span {
+      .Flying>div>span {
         background-color: #a891ec;
         height: 100%;
         width: 100%;
@@ -354,17 +364,18 @@
         align-items: center;
       }
 
-     .steel{
+     .Steel{
       border-color: #b7b9d0;
       color: #b7b9d0;
+      --bs-progress-bar-bg: #b7b9d0 !important;
      }
 
      .steelbg{
-      background-color: #b7b9d0;
+      background-color: #b7b9d0!important ;
       border: 4px solid #b7b9d0;
      }
 
-     .steel>div>span{
+     .Steel>div>span{
       display: grid;
       background-color: #b7b9d0;
       height: 100%;
@@ -401,7 +412,7 @@
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 2fr;
-      height: 99vh;
+      height: 100vh;
       width: auto;
       border-radius: 15px;
       
@@ -499,7 +510,7 @@
       height: 100%;
       width: 100%;
       display: grid;
-      grid-template-rows: 10% 10% 15% 20% 10% 35% ;
+      grid-template-rows: 15% 5% 20% 15% 10% 35%;
       justify-items: center;
       align-items: center;
     }
@@ -572,6 +583,11 @@
       font-size: 12px;
     }
     
+    .moves{
+      position: relative;
+      top:-11px;
+    }
+    
     .tworows{
       display: grid;
       grid-template-rows: 1fr 1fr;
@@ -590,19 +606,24 @@
       border-right: 2px solid #e0e0e0;
       height: 60%;
     }
+    
+    .line2{
+      border-right: 2px solid #e0e0e0;
+      height: 90%;
+    }
 
     .modal-stats{
       display: grid;
       grid-template-columns: 1fr 1fr 5fr;
       height: 100%;
       width: 100%;
+      align-items: center;
+      justify-items: center;
     }
-
-
-    ul{
-      padding: 0px;
-    } 
- 
+    
+    li{
+      margin-right: 20px;
+    }
 
   .modal-stats > div > ul {
     list-style: none;
@@ -610,9 +631,15 @@
 
   
   .modal-range{
-    height: 100%;
-    width: 100%;
-    margin-left: -10%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    height: 90%;
+    width: 90%;
+    margin-top: 6%;
+  }
+
+  .progressBar{
+    --bs-progress-height: 0.6rem !important;
   }
 
   progress{
@@ -620,8 +647,10 @@
     
   }
   
+  li{
+    margin-top: 5px;
+  }
 
-  
   .slider
   { 
     width: 90%;
@@ -630,9 +659,12 @@
 
   .onetype{
     position: relative;
-    left: 40px;
+    left: 45px;
+    top: -15px;
   }
-
+  .bar{
+    --bs-progress-height: 0.5rem;
+  }
 } 
 
 

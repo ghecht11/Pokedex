@@ -5,7 +5,7 @@
   "name": "Aron",
   "id": "304",
   "image":"./Imagenes/aron.png",
-  "type": "steel",
+  "type": "Steel",
   "weight": "60,0kg",
   "height": "0,4m",
   "moves": "Sturdy Rock-Head",
